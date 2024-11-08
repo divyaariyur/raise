@@ -1,0 +1,34 @@
+.selectindex img {
+    height: 100%;
+    width: 100%;
+}
+
+.selectindex-location {
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+.selectindex-location .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.selectindex-location p {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.selectindex-text {
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
